@@ -1,9 +1,10 @@
 import './App.css';
+import Footer from './layouts/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <Footer />
     </div>
   );
 }
