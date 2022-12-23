@@ -1,0 +1,26 @@
+.header-container{
+    background-color: rgb(65, 177, 247);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.icon{
+    color: rebeccapurple;
+    text-decoration: line-through;
+}
+nav{
+    font-size: 1.5rem;
+    padding-top: 17px;
+}
+
+.link{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav .active{
+    color: yellow;
+    text-decoration: underline;
+}
