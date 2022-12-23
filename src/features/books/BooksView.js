@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const BooksView = () => {
-    const books = useSelector(state => state.booksReducer)
+    const books = useSelector(state => state.booksReducer.books)
 
     return (
         <div>

@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AddBook from './features/books/AddBook';
 import BooksView from './features/books/BooksView';
 import EditBook from './features/books/EditBook';
 import Footer from './layouts/footer/Footer';
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/show-books' element={<BooksView />}></Route>
-          <Route path='/add-book' element={<Home />}></Route>
+          <Route path='/add-book' element={<AddBook />}></Route>
           <Route path='/edit-book' element={<EditBook />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
