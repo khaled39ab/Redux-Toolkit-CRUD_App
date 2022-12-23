@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialValue =[
     {id: 1, title: 'Hello You', author: 'Umok Sala'},
-    {id: 2, title: 'You and Me', author: 'Tmuk Sali'}
+    {id: 2, title: 'You and Me', author: 'Tumuk Sala'}
 ]
 
 export const booksSlice = createSlice({
