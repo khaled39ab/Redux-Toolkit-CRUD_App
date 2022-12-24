@@ -26,7 +26,7 @@ const EditBook = () => {
                     <label htmlFor="title">Title: </label>
                     <input 
                     type="text" 
-                    defaultValue={title} 
+                    value={title} 
                     name='title'
                     onChange={(e)=>setTitle(e.target.value)}
                     required />
@@ -35,7 +35,7 @@ const EditBook = () => {
                     <label htmlFor="author">Author: </label>
                     <input 
                     type="text" 
-                    defaultValue={author} 
+                    value={author} 
                     onChange={(e)=>setAuthor(e.target.value)}
                     name='author'
                     required />
